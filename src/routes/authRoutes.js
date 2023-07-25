@@ -4,5 +4,6 @@ const router = express.Router()
 
 router
     .post('/login', AuthController.login)
+    .post('/verify', AuthController.verify)
 
 module.exports = router
