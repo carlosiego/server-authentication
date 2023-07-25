@@ -1,6 +1,7 @@
 const AuthRepository = require('../repositories/AuthRepository')
 const jwt = require('jsonwebtoken')
 
+
 class AuthController {
 
 	async login(req, res) {
